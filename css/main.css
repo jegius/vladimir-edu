@@ -1,0 +1,38 @@
+.header {
+    background-color: #FBF7EC;
+    display: flex;
+    min-width: 120rem;
+    min-height: 53.5625rem;
+    top: -0.1875rem;
+    flex-shrink: 0;
+}
+.navbar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    font-family: Inter, monospace;
+    color: #5A5A5A;
+    font-weight: 400;
+    display: inline-flex;
+    width: 10rem;
+    height: 1.75rem;
+}
+.navbar-main {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    width: 32rem;
+}
+.navbar-sp {
+    font-family:Work Sans, monospace;
+    color: #1F0C0B;
+    font-weight: 500
+}
+.test {
+    background-color: red;
+    min-width: 10rem;
+    min-height: 10rem;
+}
