@@ -50,7 +50,21 @@
     font-size: 1rem;
     background-color: #756BEE;
 }
-.navbar__logo{
+.navbar__logo1{
+    margin: 0 1px 0 auto;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: Work Sans, monospace;
+    font-size: 0.5rem;
+    top: 0;
+    border-bottom: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    text-align: center;
+    background-color: #756BEE;
+}
+.navbar__logo2{
     margin: 0 1px 0 auto;
     text-decoration: none;
     color: #0F0D1C;
