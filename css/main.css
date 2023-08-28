@@ -6,7 +6,7 @@
     top: -0.1875rem;
     flex-shrink: 0;
 }
-.navbar-main {
+.navbar__main {
     text-decoration: none;
     margin: 0;
     padding: 3.5625rem 39.8125rem;
@@ -15,16 +15,16 @@
     font-weight: 400;
     font-family: Inter, monospace;
 }
-.navbar-main li{
+.navbar__main li{
     display: inline-block;
     margin: 0 1rem;
 }
-.navbar-home {
+.navbar__home {
     color: #1F0C0B;
     font-weight: 500;
     font-family: Work Sans, monospace;
 }
-.navbar-all {
+.navbar__all {
     text-decoration: none;
     color: #5A5A5A;
 }
@@ -32,11 +32,15 @@
     background-color: red;
     min-width: 10rem;
     min-height: 10rem;
+    text-decoration: none;
+    color: #0F0D1C;
+    font-family: Work Sans, monospace;
+    font-weight: 700;
 }
-.button-con{
+.button__con{
     text-decoration: none;
     padding: 0.5rem 1rem;
-    margin: 0 92.125rem;
+    margin: 0;
     border-radius: 2.625rem;
     color: #FFFFFF;
     display:block;
@@ -44,7 +48,19 @@
     text-align: center;
     font-family: Work Sans, monospace;
     font-size: 1rem;
-}
-.button-con{
     background-color: #756BEE;
 }
+.navbar__logo{
+    margin: 0 1px 0 auto;
+    text-decoration: none;
+    color: #0F0D1C;
+    font-weight: 700;
+    font-family: Work Sans, monospace;
+    font-size: 24px;
+    line-height: 24px;
+    top: 0;
+}
+.navbar__line{
+    display: inline;
+}
+
